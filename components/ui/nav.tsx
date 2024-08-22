@@ -35,7 +35,7 @@ const Nav = () => {
 
   return (
     <nav className="border-b bg-muted">
-      <div className="px-3 pt-3 max-w-4xl mx-auto">
+      <div className="px-4 pt-3 max-w-4xl mx-auto">
         <div className="flex flex-row justify-between">
           <h1 className="font-bold text-2xl">Features</h1>
           <Button variant="secondary">Sign in / Sign up</Button>

@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={font.className}>
         <Nav />
-        <main className="max-w-4xl mx-auto relative px-3">{children}</main>
+        <main className="relative">{children}</main>
       </body>
     </html>
   );
